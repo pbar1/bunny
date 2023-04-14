@@ -6,7 +6,7 @@ interface Command {
 const defaultCommand = "g";
 const commands: { [key: string]: Command } = {
   g: {
-    name: "Google Search",
+    name: "Google",
     url: "https://www.google.com/search?q=%s",
   },
   fb: {
@@ -22,12 +22,20 @@ const commands: { [key: string]: Command } = {
     url: "https://www.youtube.com/results?search_query=%s",
   },
   nix: {
-    name: "Nix Package Search",
+    name: "Nix package search",
     url: "https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=%s",
   },
   nixopt: {
-    name: "NixOS Options Search",
+    name: "NixOS options search",
     url: "https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=%s",
+  },
+  hm: {
+    name: "Home Manager options search",
+    url: "https://mipmip.github.io/home-manager-option-search/?%s",
+  },
+  sg: {
+    name: "Sourcegraph",
+    url: "https://sourcegraph.com/search?q=%s&patternType=standard&sm=1"
   },
   gh: {
     name: "GitHub",
@@ -56,6 +64,10 @@ const commands: { [key: string]: Command } = {
   pggf: {
     name: "pbar1 GitHub code search (files)",
     url: "https://github.com/search?q=path%3A%s+user%3Apbar1&type=code",
+  },
+  bp: {
+    name: "Bulbapedia search",
+    url: "https://bulbapedia.bulbagarden.net/wiki/index.php?title=Special%3ASearch&search=%s&go=Go"
   },
 };
 
