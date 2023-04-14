@@ -1,7 +1,25 @@
 ---
-const redirectUrl = `https://google.com`;
 ---
 
 <head>
-  <meta http-equiv="refresh" content={`0; url=${redirectUrl}`} />
+  <script>
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+      get: (searchParams, prop) => searchParams.get(prop),
+    });
+
+    const commands = {
+      g: { url: "https://www.google.com/search?q=%s" },
+      fb: { url: "https://facebook.com" },
+    };
+
+    const split = params.q.split(/\s+/);
+    const name = split[0];
+    const arg = split[1];
+
+    const commandUrl = commands[name].url;
+
+    const redirectUrl = commandUrl.replace("%s", arg);
+
+    window.location.replace(redirectUrl);
+  </script>
 </head>
