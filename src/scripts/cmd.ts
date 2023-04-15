@@ -1,4 +1,4 @@
-import { Command, commands, defaultCommand } from "../components/command";
+import { commands, defaultCommand } from "../data/command";
 
 const queryParams = new URLSearchParams(window.location.search);
 const queryParamQ = queryParams.get("q");
