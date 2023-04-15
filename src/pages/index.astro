@@ -1,4 +1,5 @@
 ---
+import { commands } from "../data/command";
 ---
 
 <html lang="en">
@@ -11,6 +12,25 @@
   </head>
   <body>
     <h1>Bunny</h1>
-    <p><a href="/bunny/cmd?q=fb">Command</a></p>
+    <table class="table-auto">
+      <thead>
+        <tr>
+          <th>Shortcut</th>
+          <th>Name</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          Object.entries(commands).map(([shortcut, command]) => (
+            <tr>
+              <td>{shortcut}</td>
+              <td>{command.name}</td>
+              <td>{command.url}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
   </body>
 </html>
