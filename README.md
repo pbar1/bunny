@@ -17,3 +17,10 @@ https://pbar1.github.io/bunny/cmd?q=%s
 
 where the `%s` string is a literal, and will be used by the browser to inject
 queries.
+
+## Commands
+
+Available commands are listed in [`command.ts`](/src/data/command.ts).
+
+The goal is for commands to be user-defined and stored in browser local
+storage.
