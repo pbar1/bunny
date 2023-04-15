@@ -114,4 +114,12 @@ export const commands: { [key: string]: Command } = {
     name: "Reddit",
     url: "https://www.reddit.com/search/?q=%s",
   },
+  maps: {
+    name: "Google Maps",
+    url: "https://www.google.com/maps",
+  },
+  cal: {
+    name: "Google Calender",
+    url: "https://calendar.google.com/calendar/u/0/r"
+  },
 };
