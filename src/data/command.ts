@@ -50,39 +50,39 @@ export const commands: { [key: string]: Command } = {
     name: "GitHub",
     url: "https://github.com/%s",
   },
-  ggs: {
+  bgs: {
     name: "All GitHub code search (strings)",
     url: "https://github.com/search?q=%s&type=code",
   },
-  ggr: {
+  bgr: {
     name: "All GitHub code search (regex)",
     url: "https://github.com/search?q=%2F%s%2F&type=code",
   },
-  ggf: {
+  bgf: {
     name: "All GitHub code search (files)",
     url: "https://github.com/search?q=path%3A%s&type=code",
   },
-  pggs: {
+  pbgs: {
     name: "pbar1 GitHub code search (strings)",
     url: "https://github.com/search?q=%s+user%3Apbar1&type=code",
   },
-  pggr: {
+  pbgr: {
     name: "pbar1 GitHub code search (regex)",
     url: "https://github.com/search?q=%2F%s%2F+user%3Apbar1&type=code",
   },
-  pggf: {
+  pbgf: {
     name: "pbar1 GitHub code search (files)",
     url: "https://github.com/search?q=path%3A%s+user%3Apbar1&type=code",
   },
-  nggs: {
+  nbgs: {
     name: "Nixpkgs GitHub code search (strings)",
     url: "https://github.com/search?q=%s+repo%3ANixOS%2Fnixpkgs&type=code",
   },
-  nggr: {
+  nbgr: {
     name: "Nixpkgs GitHub code search (regex)",
     url: "https://github.com/search?q=%2F%s%2F+repo%3ANixOS%2Fnixpkgs&type=code",
   },
-  nggf: {
+  nbgf: {
     name: "Nixpkgs GitHub code search (files)",
     url: "https://github.com/search?q=path%3A%s+repo%3ANixOS%2Fnixpkgs&type=code",
   },
