@@ -122,4 +122,12 @@ export const commands: { [key: string]: Command } = {
     name: "Google Calender",
     url: "https://calendar.google.com/calendar/u/0/r"
   },
+  drive: {
+    name: "Google Drive",
+    url: "https://drive.google.com/drive/my-drive"
+  },
+  ah: {
+    name: "Artifact Hub",
+    url: "https://artifacthub.io/packages/search?ts_query_web=%s"
+  }
 };
