@@ -18,6 +18,11 @@ https://pbar1.github.io/bunny/cmd?q=%s
 where the `%s` string is a literal, and will be used by the browser to inject
 queries.
 
+FIXME: To load commands into IndexedDB, visit the [`add_cmds`](https://pbar1.github.io/bunny/add_cmds).
+This adds commands defined in code to browser local storage, and should be done
+each time the code changes (as currently written). The goal is for this to be
+used as a backend for UI-based command authoring.
+
 ## Commands
 
 Available commands are listed in [`command.ts`](/src/data/command.ts).
