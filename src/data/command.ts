@@ -129,5 +129,13 @@ export const commands: { [key: string]: Command } = {
   ah: {
     name: "Artifact Hub",
     url: "https://artifacthub.io/packages/search?ts_query_web=%s"
-  }
+  },
+  router: {
+    name: "Router",
+    url: "https://192.168.0.1",
+  },
+  modem: {
+    name: "Modem",
+    url: "http://192.168.100.1",
+  },
 };
