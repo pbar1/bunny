@@ -15,13 +15,14 @@ if (queryParamQ) {
   // FIXME: Assumes defaultCommand has a searchUrl
   let command: Command;
   let replaceArg: string;
-  try {
-    command = <Command>await get(commandName);
+  command = <Command>await get(commandName);
+  if (command !== undefined) {
     replaceArg = arg;
-  } catch {
+  } else {
     command = <Command>await get(defaultCommand);
     replaceArg = commandName + " " + arg;
   }
+
   const commandUrl = command.url.replace("%s", replaceArg);
 
   // Redirect to the resolved command URL
