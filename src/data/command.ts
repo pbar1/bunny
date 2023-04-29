@@ -90,7 +90,7 @@ export const commands: { [key: string]: Command } = {
     name: "Bulbapedia search",
     url: "https://bulbapedia.bulbagarden.net/wiki/index.php?title=Special%3ASearch&search=%s&go=Go"
   },
-  qbt: {
+  qbit: {
     name: "Qbittorrent",
     url: "https://qbittorrent.xnauts.net",
   },
@@ -137,5 +137,17 @@ export const commands: { [key: string]: Command } = {
   modem: {
     name: "Modem",
     url: "http://192.168.100.1",
+  },
+  sonarr: {
+    name: "Sonarr",
+    url: "https://sonarr.xnauts.net",
+  },
+  radarr: {
+    name: "Radarr",
+    url: "https://radarr.xnauts.net",
+  },
+  readarr: {
+    name: "Readarr",
+    url: "https://readarr.xnauts.net",
   },
 };
