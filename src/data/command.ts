@@ -152,6 +152,6 @@ export const commands: { [key: string]: Command } = {
   },
   plex: {
     name: "Plex",
-    url: "https://app.plex.tv/desktop/#!/",
+    url: "https://app.plex.tv/desktop",
   },
 };
