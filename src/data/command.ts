@@ -150,4 +150,8 @@ export const commands: { [key: string]: Command } = {
     name: "Readarr",
     url: "https://readarr.xnauts.net",
   },
+  readarr: {
+    name: "Plex",
+    url: "https://app.plex.tv/desktop/#!/",
+  },
 };
