@@ -154,4 +154,8 @@ export const commands: { [key: string]: Command } = {
     name: "Plex",
     url: "https://app.plex.tv/desktop",
   },
+  nbab: {
+    name: "NBA Bracket",
+    url: "http://www.espn.com/nba/bracket",
+  },
 };
