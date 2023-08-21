@@ -150,6 +150,10 @@ export const commands: { [key: string]: Command } = {
     name: "Readarr",
     url: "https://readarr.xnauts.net",
   },
+  prowlarr: {
+    name: "Prowlarr",
+    url: "https://prowlarr.xnauts.net",
+  },
   plex: {
     name: "Plex",
     url: "https://app.plex.tv/desktop",
@@ -157,5 +161,9 @@ export const commands: { [key: string]: Command } = {
   nbab: {
     name: "NBA Bracket",
     url: "http://www.espn.com/nba/bracket",
+  },
+  sso: {
+    name: "PBCloud SSO",
+    url: "https://pbar.cloudflareaccess.com",
   },
 };
