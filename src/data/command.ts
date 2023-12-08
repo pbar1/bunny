@@ -94,6 +94,10 @@ export const commands: { [key: string]: Command } = {
     name: "Qbittorrent",
     url: "https://qbittorrent.xnauts.net",
   },
+  qb: {
+    name: "Qbittorrent",
+    url: "https://qbittorrent.xnauts.net",
+  },
   ods: {
     name: "Grafana",
     url: "https://grafana.xnauts.net",
@@ -158,11 +162,23 @@ export const commands: { [key: string]: Command } = {
     name: "Prowlarr",
     url: "https://prowlarr.xnauts.net",
   },
+  prow: {
+    name: "Prowlarr",
+    url: "https://prowlarr.xnauts.net",
+  },
   bazarr: {
     name: "Bazarr",
     url: "https://bazarr.xnauts.net",
   },
+  baz: {
+    name: "Bazarr",
+    url: "https://bazarr.xnauts.net",
+  },
   autobrr: {
+    name: "Autobrr",
+    url: "https://autobrr.xnauts.net",
+  },
+  brr: {
     name: "Autobrr",
     url: "https://autobrr.xnauts.net",
   },
