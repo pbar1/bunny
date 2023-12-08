@@ -106,9 +106,13 @@ export const commands: { [key: string]: Command } = {
     name: "Docs.rs crate search",
     url: "https://docs.rs/releases/search?query=%s",
   },
-  rs: {
-    name: "Lib.rs crate search",
-    url: "https://lib.rs/search?q=%s",
+  rd: {
+    name: "Docs.rs crate search",
+    url: "https://docs.rs/releases/search?query=%s",
+  },
+  rc: {
+    name: "Rust crate search",
+    url: "https://crates.io/search?q=%s",
   },
   r: {
     name: "Reddit",
@@ -153,6 +157,14 @@ export const commands: { [key: string]: Command } = {
   prowlarr: {
     name: "Prowlarr",
     url: "https://prowlarr.xnauts.net",
+  },
+  bazarr: {
+    name: "Bazarr",
+    url: "https://bazarr.xnauts.net",
+  },
+  autobrr: {
+    name: "Autobrr",
+    url: "https://autobrr.xnauts.net",
   },
   plex: {
     name: "Plex",
