@@ -194,4 +194,8 @@ export const commands: { [key: string]: Command } = {
     name: "PBCloud SSO",
     url: "https://pbar.cloudflareaccess.com",
   },
+  ha: {
+    name: "Home Assistant",
+    url: "https://ha.xnauts.net",
+  },
 };
