@@ -198,4 +198,12 @@ export const commands: { [key: string]: Command } = {
     name: "Home Assistant",
     url: "https://ha.xnauts.net",
   },
+  tautulli: {
+    name: "Tautulli",
+    url: "https://tautulli.xnauts.net",
+  },
+  tau: {
+    name: "Tautulli",
+    url: "https://tautulli.xnauts.net",
+  },
 };
